@@ -25,19 +25,19 @@ Proyek ini berisi hasil pengerjaan modul praktikum mata kuliah Pemrograman Web 2
 
 | Praktikum | Pokok Bahasan                | Target Output                                                                        |
 | --------- | ---------------------------- | ------------------------------------------------------------------------------------ |
-| 1         | PHP Framework                | Instalasi CI4, konfigurasi routing, controller, view, dan layout sederhana           |
-| 2         | CRUD Artikel                 | Model data, interaksi database, tambah, baca, edit, dan hapus artikel                |
-| 3         | View Layout dan View Cell    | Modularisasi layout utama dan pembuatan komponen artikel terkini di sidebar          |
-| 4         | Login dan Auth Filter        | Otentikasi admin, session, dan proteksi rute admin menggunakan filter                |
-| 5         | Pagination dan Pencarian     | Filter data menggunakan query pencarian dan pagination data artikel                  |
-| 6         | Relasi Tabel                 | Relasi tabel artikel dengan tabel kategori menggunakan Query Builder                 |
-| 7         | Upload File                  | Unggah file gambar pada artikel, validasi, dan hapus berkas gambar dari storage      |
-| 8         | AJAX                         | Halaman pengelolaan artikel berbasis AJAX tanpa reload halaman penuh                 |
-| 10        | REST API                     | Penyediaan endpoint RESTful API format JSON untuk artikel                            |
-| 11        | VueJS Frontend API           | Frontend VueJS terpisah untuk mengkonsumsi data dari REST API                        |
-| 12        | VueJS Komponen & Routing SPA | Implementasi Single Page Application (SPA) menggunakan Vue Router                    |
-| 13        | Autentikasi SPA              | Login frontend SPA, penyimpanan token di localStorage, dan Navigation Guards         |
-| 14        | Keamanan API                 | Pembatasan akses API manipulasi data menggunakan Token Bearer dan Axios Interceptors |
+| [1](#praktikum-1-php-framework-codeigniter)         | PHP Framework                | Instalasi CI4, konfigurasi routing, controller, view, dan layout sederhana           |
+| [2](#praktikum-2-framework-lanjutan-crud)         | CRUD Artikel                 | Model data, interaksi database, tambah, baca, edit, dan hapus artikel                |
+| [3](#praktikum-3-view-layout-dan-view-cell)         | View Layout dan View Cell    | Modularisasi layout utama dan pembuatan komponen artikel terkini di sidebar          |
+| [4](#praktikum-4-modul-login)         | Login dan Auth Filter        | Otentikasi admin, session, dan proteksi rute admin menggunakan filter                |
+| [5](#praktikum-5-pagination-dan-pencarian)         | Pagination dan Pencarian     | Filter data menggunakan query pencarian dan pagination data artikel                  |
+| [6](#praktikum-6-relasi-tabel-dan-query-builder)         | Relasi Tabel                 | Relasi tabel artikel dengan tabel kategori menggunakan Query Builder                 |
+| [7](#praktikum-7-upload-file-gambar)         | Upload File                  | Unggah file gambar pada artikel, validasi, dan hapus berkas gambar dari storage      |
+| [8](#praktikum-8-ajax)         | AJAX                         | Halaman pengelolaan artikel berbasis AJAX tanpa reload halaman penuh                 |
+| [10](#praktikum-10-rest-api)        | REST API                     | Penyediaan endpoint RESTful API format JSON untuk artikel                            |
+| [11](#praktikum-11-vuejs-frontend-api)        | VueJS Frontend API           | Frontend VueJS terpisah untuk mengkonsumsi data dari REST API                        |
+| [12](#praktikum-12-vuejs-komponen-dan-routing-spa)        | VueJS Komponen & Routing SPA | Implementasi Single Page Application (SPA) menggunakan Vue Router                    |
+| [13](#praktikum-13-autentikasi-spa-dan-navigation-guards)        | Autentikasi SPA              | Login frontend SPA, penyimpanan token di localStorage, dan Navigation Guards         |
+| [14](#praktikum-14-keamanan-api-token-dan-axios-interceptors)        | Keamanan API                 | Pembatasan akses API manipulasi data menggunakan Token Bearer dan Axios Interceptors |
 
 ---
 
