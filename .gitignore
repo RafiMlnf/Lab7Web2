@@ -7,7 +7,6 @@ writable/*
 vendor/
 
 # Environment configurations
-.env
 .env.backup
 .env.development
 .env.production
@@ -26,3 +25,7 @@ composer.phar
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Batch files
+*.bat
+
