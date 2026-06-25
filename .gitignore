@@ -1,0 +1,28 @@
+# Logs & writable files
+writable/*
+!writable/.gitkeep
+!writable/index.html
+
+# Vendor libraries
+vendor/
+
+# Environment configurations
+.env
+.env.backup
+.env.development
+.env.production
+
+# Composer cache
+composer.phar
+
+# Editor/OS temporary files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+ehthumbs.db
+Desktop.ini

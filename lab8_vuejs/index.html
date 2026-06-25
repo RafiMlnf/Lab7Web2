@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend VueJS - Praktikum 13 dan 14</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script>
+    window.Vue || document.write('<script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"><\/script>');
+  </script>
+  <script src="https://unpkg.com/vue-router@4/dist/vue-router.global.js"></script>
+  <script>
+    window.VueRouter || document.write('<script src="https://cdn.jsdelivr.net/npm/vue-router@4/dist/vue-router.global.js"><\/script>');
+  </script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    window.axios || document.write('<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"><\/script>');
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css?v=p13p14_final_fix_20260625">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Aplikasi Panel Single Page (SPA) - Secured</h1>
+      <p>Frontend VueJS 3 untuk mengelola data artikel melalui REST API CodeIgniter 4.</p>
+
+      <nav class="nav-menu">
+        <router-link to="/">Beranda</router-link>
+        <router-link to="/artikel">Kelola Artikel</router-link>
+        <router-link to="/about">About</router-link>
+        <router-link v-if="!isLoggedIn" to="/login">Login</router-link>
+        <a v-else href="#" @click.prevent="logout">Logout</a>
+      </nav>
+    </header>
+
+    <main>
+      <router-view></router-view>
+    </main>
+  </div>
+
+  <script src="assets/js/components/Home.js?v=p13p14_final_fix_20260625"></script>
+  <script src="assets/js/components/Artikel.js?v=p13p14_final_fix_20260625"></script>
+  <script src="assets/js/components/About.js?v=p13p14_final_fix_20260625"></script>
+  <script src="assets/js/components/Login.js?v=p13p14_final_fix_20260625"></script>
+  <script src="assets/js/app.js?v=p13p14_final_fix_20260625"></script>
+</body>
+</html>
