@@ -1,6 +1,6 @@
 <table>
   <tr><td><strong>Nama</strong></td><td>Rafi Maulana Firdaus</td></tr>
-  <tr><td><strong>NIM</strong></td><td>312210369</td></tr>
+  <tr><td><strong>NIM</strong></td><td>312210382</td></tr>
   <tr><td><strong>Kelas</strong></td><td>I241E</td></tr>
   <tr><td><strong>Mata Kuliah</strong></td><td>Pemrograman Web 2</td></tr>
   <tr><td><strong>Dosen Pengajar</strong></td><td>Agung Nugroho, S.Kom., M.Kom.</td></tr>
